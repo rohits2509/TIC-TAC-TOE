@@ -10,7 +10,13 @@ body {
 
 h1 {
   font-family: 'Waiting for the Sunrise', cursive;
-  font-size: 4em;
+  font-size: 5em;
+  margin: 0;
+}
+
+p {
+  font-family: 'Waiting for the Sunrise', cursive;
+  font-size: 25px;
   margin: 0;
 }
 
@@ -26,6 +32,27 @@ div {
   
 }
 
+button {
+  display: inline-block;
+  padding: 1rem 2rem 1rem;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+#red {
+  color: red;
+  font-weight: bolder;
+}
+
+#green {
+  color: #00FF00;
+  font-weight: bolder;
+}
+
+#doubleClick {
+  font-weight: bolder;
+  text-decoration: underline;
+}
 
 #first, #second {
   border-right: 4px solid yellow;
